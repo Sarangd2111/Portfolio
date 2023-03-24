@@ -155,8 +155,7 @@ body {
   position: relative;
   margin: 80px auto 0;
   background-color: rgb(38, 38, 38);
-  filter: blur(80px);
-  height: 20px;
+  filter: blur(50px);
   width: 100%;
 }
 
@@ -181,10 +180,10 @@ body {
       hsl(183deg 100% 71%) 100%
     );
   background-size: 400%;
-  width: calc(100% + 10px);
-  height: calc(100% + 10px);
+  width: 100%;
+  height: 33px;
   z-index: -1;
-  animation: steam 20s linear infinite;
+  animation: steam 15s linear infinite;
 }
 
 @keyframes steam {
@@ -197,8 +196,4 @@ body {
   100% {
     background-position: 0 0;
   }
-}
-
-.block:after {
-  filter: blur(50px);
 }
