@@ -19,6 +19,7 @@
   -webkit-user-select: none;
   touch-action: manipulation;
   box-shadow:3px 3px 3px black, 3px 3px 2px black inset;
+  font-family: "Teko", sans-serif;
   /* border-radius:10px; */
 }
 
@@ -27,7 +28,7 @@
   padding: 20px;
   padding-left: 30px;
   padding-right: 30px;
-  font-size: larger;
+  font-size: 25px;
   animation: detailsAnimate 1s backwards;
   animation-delay: 3s;
 }
