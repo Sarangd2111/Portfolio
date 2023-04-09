@@ -13,7 +13,7 @@
 }
 
 nav .leftpart{
-  width:70%;
+  width:70vw;
   padding-left: 10%;
   font-size: x-large;
   align-self: center;
@@ -51,13 +51,16 @@ nav .menu-items li:hover{
 nav h2{
   align-self: left;
   color: #fff;
-  font-weight: 100;
+  font-weight: 400;
   justify-self: left;
   transition: 0.3s;
-  font-size: 40px;
-  width: 110px;
+  font-size: 30px;
+  width: 160px;
   margin-right: 0;
+  font-family: 'Great Vibes', cursive;
+  /* font-family: 'Alkatra', cursive;  */
 }
+
 
 nav a{
   text-decoration: none;
@@ -84,6 +87,7 @@ nav a:hover{
 @media (max-width: 768px) {
   .navbar {
     opacity: 0.95;
+    position: fixed;
   }
 
   .rightpart .menu-items{
@@ -174,7 +178,7 @@ nav a:hover{
   }
 
   .rightpart input[type="checkbox"]:checked ~ .menu-items {
-    transform: translateX(50px);
+    transform: translateX(10px);
   }
 
   .rightpart input[type="checkbox"]:checked ~ .hamburger-lines .line1 {
@@ -194,3 +198,8 @@ nav a:hover{
 
 
 
+@media (max-width: 400px) {
+  .rightpart input[type="checkbox"]:checked ~ .menu-items {
+    transform: translateX(-20px);
+  }
+}
